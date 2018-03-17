@@ -36,3 +36,7 @@ The pipeline is tested using iamges in the [test_images](https://github.com/lipe
 ## Potential shortcomings with current pipeline
 
 One potential shortcoming is that the pipeline is not robust enough to perform well on lane curves with high degree of radian, which is illustrated with challenge output video in [test_videos_output](http://localhost:8888/tree/CarND-LaneLines-P1/test_videos_output) 
+
+## Possible improvement
+
+One possible improvement is to draw a smoother curve using **cv2.ployfit** and **cv2.ploylines** methods instead of **cv2.lines**. 
